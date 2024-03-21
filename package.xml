@@ -5,7 +5,7 @@
   <name>gz_utils_vendor</name>
   <version>2.2.0</version>
   <description>Gazebo Utils : Classes and functions for robot applications</description>
-  <maintainer email="addisu@openrobotics.org">Addizu Z. Taddese</maintainer>
+  <maintainer email="addisuzt@intrinsic.ai">Addisu Z. Taddese</maintainer>
   <license>Apache License 2.0</license>
   <url type="website">https://github.com/gazebosim/gz-utils</url>
 
@@ -16,7 +16,7 @@
   <depend>gz_cmake_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
-  <build_depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-utils2</build_depend>
+  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-utils2</depend>
 
   <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>
