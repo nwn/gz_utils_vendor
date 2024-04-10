@@ -2,8 +2,8 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2024-04-10)
+------------------
 * Add support for the `<pkg>::<pkg>` and `<pkg>::all` targets, fix sourcing of dsv files
 * Contributors: Addisu Z. Taddese
 
