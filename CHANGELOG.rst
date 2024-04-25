@@ -2,8 +2,8 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2024-04-25)
+------------------
 * Use an alias target for root library
 * Contributors: Addisu Z. Taddese
 
