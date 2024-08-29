@@ -12,7 +12,7 @@
   -->
   <version>0.1.0</version>
   <description>
-    Vendor package for: gz-utils2 2.2.0
+    Vendor package for: gz-utils3 3.0.0
 
     Gazebo Utils : Classes and functions for robot applications
   </description>
@@ -24,10 +24,12 @@
   <buildtool_depend>ament_cmake_test</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
+  <build_depend>spdlog</build_depend>
+  <exec_depend>spdlog</exec_depend>
   <depend>gz_cmake_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
-  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-utils2</depend>
+  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-utils3</depend>
 
   <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>
